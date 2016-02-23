@@ -1,0 +1,21 @@
+{
+  "name": "picture-slide",
+  "authors": [
+    "ino_h <syslink.h.inoue@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize.styl": "^3.0.3"
+  }
+}

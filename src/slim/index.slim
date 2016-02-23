@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    link rel="stylesheet" type="text/css" href="css/app.css"
+    script src="js/app.js"
+  body
+    div#contents
+      div.block v-for="content in contents"
+        img src="{{ content.file }}" v-if="isImage(content)"
+        video src="{{ content.file }}" v-if="isMovie(content)" controls=""
+      div.block.add @click="select_content"
+        img src="/static/plus-24.png"
+
+      input#upload_content type="file" accept="image/*,video/*" multiple="" @change="upload_content"
