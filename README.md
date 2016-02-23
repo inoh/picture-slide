@@ -9,8 +9,11 @@ picture-slide
         - bower
         - gulp
 - フロント
-    - normalize.css
-    - Vue.js
+    - CoffeeScript - javascript
+    - Stylus - css
+    - Slim - html
+    - Vue.js - javascriptフレームワーク
+    - normalize.css - リセットcss
 
 ## 開発手順
 
